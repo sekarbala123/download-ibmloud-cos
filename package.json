@@ -1,0 +1,17 @@
+{
+  "name": "download-ibmloud-cos",
+  "version": "1.0.0",
+  "description": "Download entire COS (Cloud Object Storage) service instance including buckets and objects to local",
+  "main": "ibmcloudCosDownload.js",
+  "dependencies": {
+    "ibm-cos-sdk": "^1.12.2",
+    "shelljs": "^0.8.5"
+  },
+  "scripts": {
+    "start": "node ibmcloudCosDownload.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean_output": "set -e && echo \"Cleaning the output folder: output\" && echo $1 && rm -rf output/$1 && exit 0"
+  },
+  "author": "Balasekar",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+# ignore page lock
+package-lock.json
+
+# ignore node modules
+node_modules/**
+
+# ignore IDE settings
+.vscode/**
+
+# Never commit any credentails to repo
+cred*.json
+
+# ignore the output directory
+output/**
