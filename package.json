@@ -1,7 +1,7 @@
 {
   "name": "download-ibmloud-cos",
   "version": "1.0.0",
-  "description": "Download entire COS (Cloud Object Storage) service instance including buckets and objects to local",
+  "description": "Download all COS objects (Cloud Object Storage) from IBMCloud service instance to local",
   "main": "ibmcloudCosDownload.js",
   "dependencies": {
     "ibm-cos-sdk": "^1.12.2",
